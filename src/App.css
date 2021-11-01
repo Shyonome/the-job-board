@@ -1,1 +1,43 @@
 /* Other rules */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #F1F1F1;
+}
+
+.container div:nth-child(3), div:nth-child(6), div:nth-child(9) {
+    display: flex;
+    background-color: pink;
+}
+  
+.item {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+    background-color: #333333;
+}
