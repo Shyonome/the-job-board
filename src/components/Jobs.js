@@ -5,8 +5,13 @@ import Paragraph from "./Paragraph";
 const Jobs = (props) => {
     return (
         <div>
-            
+
+        <div class="item">
+            <H2 h2={props.h2} />
+            <Paragraph paragraph={props.paragraph} />
         </div>
+
+      </div>
     );
 };
 
