@@ -1,8 +1,7 @@
 import "./App.css";
 import H1 from "./components/H1"
-import H2 from "./components/H2"
-import Jobs from "./components/Jobs"
-import Paragraph from "./components/Paragraph";
+import Jobs from "./components/Jobs";
+import Paragraph from "./components/Paragraph"
 
 function App() {
   return (
@@ -13,15 +12,15 @@ function App() {
     </header>
 
     <main class="container">
-      <Jobs class="boder-red" h2="Full Time Sales Associate - Sydney Boutique" paragraph="CDD - France - Paris"/>
-      <Jobs h2="Agent de Sécurité - Pantin" paragraph="CDD - France - Paris"/>
-      <Jobs h2="Responsable d'Atelier" paragraph="CDI - France - Pantin"/>
-      <Jobs h2="Chef de Projet" paragraph="CDD - France - Paris"/>
-      <Jobs h2="Développeur React.js" paragraph="CDI - France - Paris"/>
-      <Jobs h2="Sales Associate" paragraph="CDI - Suède - Stockholm"/>
-      <Jobs h2="Vendeur/se - Cran Montana" paragraph="CDI - Suisse - Cran Montana"/>
-      <Jobs h2="CRM - Data Quality Analyst" paragraph="CDI - USA - New York"/>
-      <Jobs h2="Infirmier" paragraph="CDI - France - Pantin"/>
+      <Jobs className="item-red" title="Full Time Sales Associate - Sydney Boutique" contractType="CDD " country="- France -" city=" Paris"/>
+      <Jobs className="item-green" title="Agent de Sécurité - Pantin" contractType="CDD " country="- France -" city=" Paris"/>
+      <Jobs className="item-yellow" title="Responsable d'Atelier" contractType="CDI " country="- France -" city="Pantin"/>
+      <Jobs className="item-blue" title="Chef de Projet" contractType="CDD " country="- France -" city=" Paris"/>
+      <Jobs className="item-pink" title="Développeur React.js" contractType="CDI " country="- France -" city=" Paris"/>
+      <Jobs className="item-red" title="Sales Associate" contractType="CDI " country="- Suède -" city=" Stockholm"/>
+      <Jobs className="item-green" title="Vendeur/se - Cran Montana" contractType="CDI " country="- Suisse -" city=" Cran Montana"/>
+      <Jobs className="item-yellow" title="CRM - Data Quality Analyst" contractType="CDI " country="- USA -" city=" New York"/>
+      <Jobs className="item-blue" title="Infirmier" contractType="CDI " country="- France  -" city=" Pantin"/>
     </main>
 
     <footer>
