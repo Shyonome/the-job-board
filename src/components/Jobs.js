@@ -7,9 +7,11 @@ const Jobs = (props) => {
     return (
         <div className={props.className}>
             <Title title={props.title} />
-            <ContractType contractType={props.contractType} />
-            <Country country={props.country} />
-            <City city={props.city} />
+            <div>
+                <ContractType contractType={props.contractType} />
+                <Country country={props.country} />
+                <City city={props.city} />
+            </div>
         </div>
     );
 };

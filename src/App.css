@@ -43,7 +43,9 @@ p {
 
 .item-red {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
+    padding-bottom: 10px;
     justify-content: space-between;
     width: 200px;
     height: 200px;
@@ -53,7 +55,9 @@ p {
   
 .item-green {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
+    padding-bottom: 10px;
     justify-content: space-between;
     width: 200px;
     height: 200px;
@@ -63,7 +67,9 @@ p {
 
 .item-blue {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
+    padding-bottom: 10px;
     justify-content: space-between;
     width: 200px;
     height: 200px;
@@ -73,7 +79,9 @@ p {
 
 .item-yellow {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
+    padding-bottom: 10px;
     justify-content: space-between;
     width: 200px;
     height: 200px;
@@ -83,7 +91,9 @@ p {
 
 .item-pink {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
+    padding-bottom: 10px;
     justify-content: space-between;
     width: 200px;
     height: 200px;

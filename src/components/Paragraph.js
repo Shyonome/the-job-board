@@ -1,6 +1,6 @@
 const Paragraph = (props) => {
     return (
-        <p>{props.paragraph}</p>
+        <span>{props.paragraph}</span>
     );
 }
 
